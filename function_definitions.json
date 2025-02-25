@@ -1,0 +1,287 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "addition",
+            "description": "To add 2 numbers",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num1": {"type": "number", "description": "The first number to be added"},
+                    "num2": {"type": "number", "description": "The second number to be added"}
+                },
+                "required": ["num1", "num2"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "subtraction",
+            "description": "To subtract 2 numbers",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num1": {"type": "number", "description": "The first number to be subtracted"},
+                    "num2": {"type": "number", "description": "The second number to be subtracted"}
+                },
+                "required": ["num1", "num2"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "multiplication",
+            "description": "To multiply 2 numbers",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num1": {"type": "number", "description": "The first number to be multiplied"},
+                    "num2": {"type": "number", "description": "The second number to be multiplied"}
+                },
+                "required": ["num1", "num2"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "division",
+            "description": "To divide 2 numbers",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num1": {"type": "number", "description": "The first number to be divided"},
+                    "num2": {"type": "number", "description": "The second number to be divided"}
+                },
+                "required": ["num1", "num2"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "remainder",
+            "description": "To find the remainder when one number is divided by another",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num1": {"type": "number", "description": "The dividend (number to be divided)"},
+                    "num2": {"type": "number", "description": "The divisor (number by which division is performed)"}
+                },
+                "required": ["num1", "num2"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "evaluation",
+            "description": "To evaluate a function string with respect to a certain variable",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "func": {"type": "string", "description": "The function string to be evaluated"},
+                    "x": {"type": "string", "description": "The variable with respect to evaluate to"},
+                    "num": {"type": "number", "description": "The numerical value to evaluate at"}
+                },
+                "required": ["func", "x", "num"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "differentiation",
+            "description": "To differentiate a function string with respect to a certain variable",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "func": {"type": "string", "description": "The function string to be differentiated"},
+                    "x": {"type": "string", "description": "The variable with respect to differentiate to"},
+                    "num": {"type": "number", "description": "Optional: Value to evaluate derivative at", "default": null}
+                },
+                "required": ["func", "x"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "integration",
+            "description": "To integrate a function string with respect to a certain variable",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "func": {"type": "string", "description": "The function string to be integrated"},
+                    "x": {"type": "string", "description": "The variable with respect to integrate to"},
+                    "num1": {"type": "number", "description": "Optional: Lower limit for definite integral", "default": null},
+                    "num2": {"type": "number", "description": "Optional: Upper limit for definite integral", "default": null}
+                },
+                "required": ["func", "x"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "sqrt",
+            "description": "Finds the square root of a given number",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num": {"type": "number", "description": "The given number whose square root is to be found"}
+                },
+                "required": ["num"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "exponentiation",
+            "description": "To raise a number to a power",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "base": {"type": "number", "description": "The base number"},
+                    "exponent": {"type": "number", "description": "The exponent to raise the base to"}
+                },
+                "required": ["base", "exponent"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "square_root",
+            "description": "To find the square root of a number",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num": {"type": "number", "description": "The number to find the square root of"}
+                },
+                "required": ["num"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "logarithm",
+            "description": "To compute the logarithm of a number with a given base",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num": {"type": "number", "description": "The number to take the logarithm of"},
+                    "base": {"type": "number", "description": "The base of the logarithm"}
+                },
+                "required": ["num", "base"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "factorial",
+            "description": "To compute the factorial of a number",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num": {"type": "integer", "description": "The number to compute the factorial of"}
+                },
+                "required": ["num"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "gcd",
+            "description": "To compute the greatest common divisor of two numbers",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num1": {"type": "integer", "description": "The first number"},
+                    "num2": {"type": "integer", "description": "The second number"}
+                },
+                "required": ["num1", "num2"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "lcm",
+            "description": "To compute the least common multiple of two numbers",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num1": {"type": "integer", "description": "The first number"},
+                    "num2": {"type": "integer", "description": "The second number"}
+                },
+                "required": ["num1", "num2"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "absolute_value",
+            "description": "To find the absolute value of a number",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "num": {"type": "number", "description": "The number to find the absolute value of"}
+                },
+                "required": ["num"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "trigonometric",
+            "description": "To evaluate trigonometric functions such as sin, cos, tan",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "func": {"type": "string", "description": "The trigonometric function (e.g., sin, cos, tan)"},
+                    "angle": {"type": "number", "description": "The angle in radians"}
+                },
+                "required": ["func", "angle"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "inverse_trigonometric",
+            "description": "To evaluate inverse trigonometric functions such as arcsin, arccos, arctan",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "func": {"type": "string", "description": "The inverse trigonometric function (e.g., arcsin, arccos, arctan)"},
+                    "value": {"type": "number", "description": "The value to apply the function to"}
+                },
+                "required": ["func", "value"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "hyperbolic",
+            "description": "To evaluate hyperbolic functions such as sinh, cosh, tanh",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "func": {"type": "string", "description": "The hyperbolic function (e.g., sinh, cosh, tanh)"},
+                    "value": {"type": "number", "description": "The value to apply the function to"}
+                },
+                "required": ["func", "value"]
+            }
+        }
+    }
+]

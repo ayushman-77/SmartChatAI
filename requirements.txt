@@ -1,0 +1,7 @@
+streamlit
+requests
+newspaper3k
+sympy
+mistralai
+python-dotenv
+lxml_html_clean
