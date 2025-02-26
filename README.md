@@ -5,8 +5,11 @@ It provides **accurate calculations** for **integration, differentiation, LCM, f
 
 ## 🚀 Features
 ✅ **Solves math problems** (integration, differentiation, LCM, factorial, etc.).
+
 ✅ **Answers real-world questions** using web search.
+
 ✅ **Interactive Chat UI** built with **Streamlit**.
+
 ✅ **Dark-themed chat bubbles** with **user & bot icons**.
 
 ## 🖥️ Installation & Setup
