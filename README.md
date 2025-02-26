@@ -90,3 +90,5 @@ streamlit run app.py
   *Response: The tallest mountain in the world is Mount Everest, with a height of 8,848.86 meters (29,031.7 feet).*
 - **"What is the capital of Japan?"**  
   *Response: The capital of Japan is Tokyo.*
+
+  ![SmartChatAI UI](screenshot.png)
