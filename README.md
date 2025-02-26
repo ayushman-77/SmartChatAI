@@ -91,4 +91,5 @@ streamlit run app.py
 - **"What is the capital of Japan?"**  
   *Response: The capital of Japan is Tokyo.*
 
+### **SmartChatAI UI**
   ![SmartChatAI UI](screenshot.png)
